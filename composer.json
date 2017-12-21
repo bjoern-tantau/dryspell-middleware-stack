@@ -1,0 +1,22 @@
+{
+    "name": "dryspell/middleware-stack",
+    "description": "Module to manage middlewares. Can be used by RequestHandlers to access middlewares.",
+    "require": {
+        "psr/container": "^1.0",
+        "http-interop/http-server-middleware": "^1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dryspell\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Björn Tantau",
+            "email": "bjoern@bjoern-tantau.de"
+        }
+    ]
+}
