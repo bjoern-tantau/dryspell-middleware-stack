@@ -3,7 +3,7 @@
 namespace Dryspell\Tests;
 
 use Dryspell\MiddlewareStack;
-use Interop\Http\Server\MiddlewareInterface;
+use Psr\Http\Server\MiddlewareInterface;
 use PHPUnit\Framework\TestCase;
 use Psr\Container\ContainerInterface;
 

@@ -3,7 +3,7 @@
 namespace Dryspell;
 
 use Dryspell\MiddlewareStack\InvalidClassException;
-use Interop\Http\Server\MiddlewareInterface;
+use Psr\Http\Server\MiddlewareInterface;
 use Psr\Container\ContainerInterface;
 
 /**
